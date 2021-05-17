@@ -1,0 +1,50 @@
+// -----------------------------------------------------------------------------
+// SCSS variables and CSS custom properties
+// -----------------------------------------------------------------------------
+
+// COLORS
+$color__white: #fff;
+$color__black: #000;
+$color__horizon: #5b7ba6;
+$color__viridian-green: #5e8c72;
+$color__golden-sand: #f2c879;
+$color__punga: #593c19;
+
+$color__primary: $color__black;
+$color__secondary: $color__horizon;
+$color__tertiary: $color__viridian-green;
+$color__quaternary: $color__golden-sand;
+$color__quinary: $color__punga;
+$color__bg: $color__white;
+
+// FONTS & TYPOGRAPHY
+$font__family--sans: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+  "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji",
+  "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+$font__family--serif: Georgia, Cambria, "Times New Roman", Times, serif;
+$font__family--mono: Menlo, Monaco, Consolas, "Liberation Mono", "Courier New",
+  monospace;
+$font__size: 1.6rem;
+$font__lh: 1.5; // line height
+
+// SPACING
+$spacing--xl: 6.4rem;
+$spacing--lg: 3.2rem;
+$spacing--md: 1.6rem;
+$spacing--sm: 0.8rem;
+$spacing--xs: 0.4rem;
+
+// BREAKPOINTS
+$screen--xl: (1900 / 16) * 1em;
+$screen--lg: (1200 / 16) * 1em;
+$screen--md: (900 / 16) * 1em;
+$screen--sm: (600 / 16) * 1em;
+$screen--xs: (320 / 16) * 1em;
+
+/**
+ * Custom CSS properties
+ */
+
+:root {
+  // add your properties here
+}
